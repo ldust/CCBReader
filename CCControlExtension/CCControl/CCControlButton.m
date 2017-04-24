@@ -25,7 +25,7 @@
  */
 
 #import "CCControlButton.h"
-
+ 
 #import "CCScale9Sprite.h"
 
 enum
@@ -438,10 +438,10 @@ enum
     }
     
     // If the current state if equal to the given state we update the layout
-    if (state_ == state)
-    {
+//    if (state_ == state)
+//    {
         [self needsLayout];
-    }
+//    }
 }
 
 - (void)setBackgroundSpriteFrame:(CCSpriteFrame*)spriteFrame forState:(CCControlState)state
